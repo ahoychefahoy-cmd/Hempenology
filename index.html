@@ -1,29 +1,150 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#191916">
-<meta name="description" content="Hempenology: independent craft, hemp, food and conscious living.">
-<title>Hempenology | Rooted in nature</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#191916">
+  <meta name="description" content="Hempenology is an independent home for thoughtful food, hemp, craft, nature and curious living.">
+  <title>Hempenology | Rooted in nature</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="announcement">A more thoughtful way to make, eat and live.</div>
-<header class="header"><a class="brand" href="#top"><span class="mark">H<span>•</span></span><b>HEMPENOLOGY</b></a><button class="menu" aria-label="Toggle menu">☰</button>
-<nav><a href="#story">Our story</a><a href="#philosophy">Philosophy</a><a href="#journal">Journal</a><a class="navcta" href="#contact">Get in touch ↗</a></nav></header>
-<main id="top">
-<section class="hero"><div class="hero-bg"></div><div class="hero-content"><small>INDEPENDENT · ROOTED · CURIOUS</small><h1>Rooted in nature.<br><em>Made with intention.</em></h1><p>A meeting place for good food, thoughtful craft and a more connected way of living.</p><a class="button orange" href="#story">Discover Hempenology ↓</a></div><div class="hero-note">EST. WITH PURPOSE <i>✳</i> MADE TO GROW</div></section>
-<section class="intro section" id="story"><small>01 / THE BEGINNING</small><div><h2>Not just a name.<br><em>A way of looking at things.</em></h2><p class="lead">Hempenology brings together a love of ingredients, creativity and the natural world.</p><p>We believe the best things begin with curiosity: knowing where things come from, respecting the process, and taking the time to make something properly. This is our independent home for that journey.</p></div></section>
-<section class="values" id="philosophy"><div class="center"><small>02 / WHAT WE VALUE</small><h2>Good things<br><em>grow from the ground up.</em></h2></div><div class="value-grid">
-<article><span>01</span><b>✳</b><h3>Know your ingredients</h3><p>Respect for the raw material, the people behind it and the journey from source to table.</p></article>
-<article><span>02</span><b>⌁</b><h3>Make with intention</h3><p>Care, craft and a willingness to keep learning. No need to overcomplicate the good stuff.</p></article>
-<article><span>03</span><b>❋</b><h3>Stay connected</h3><p>To nature, to community and to the small everyday choices that shape a better future.</p></article>
-</div></section>
-<section class="feature"><div class="feature-art"><div>HEMP<br>•<br>EARTH<br>•<br>CRAFT</div></div><div class="feature-copy"><small>03 / THE HEMPENOLOGY MINDSET</small><h2>Curiosity is<br><em>the first ingredient.</em></h2><p>Hemp has a long human story and a fascinating place in conversations about food, materials and more regenerative ways of thinking. We approach it with open eyes, practical curiosity and respect for the facts.</p><a class="textlink" href="#contact">Start a conversation ↗</a></div></section>
-<section class="journal section" id="journal"><div class="journal-top"><div><small>04 / NOTES FROM THE JOURNEY</small><h2>The journal.</h2></div><p>Ideas, experiments and things worth sharing.<br>More stories coming soon.</p></div><div class="journal-card"><div class="symbol">H.</div><div><small>FIRST EDITION</small><h3>A new chapter begins</h3><p>Hempenology is growing into its own independent digital home. This is where the next chapter starts.</p></div><b>↗</b></div></section>
-<section class="contact" id="contact"><small>05 / SAY HELLO</small><h2>Good things start<br><em>with a conversation.</em></h2><p>Interested in collaborating, stocking, creating or simply finding out more?</p><span class="button light">Contact details coming soon</span><footer>INDEPENDENT BY NATURE. OPEN TO WHAT'S NEXT.</footer></section>
-</main>
-<div class="bottom"><a class="brand" href="#top"><span class="mark">H<span>•</span></span><b>HEMPENOLOGY</b></a><span>© <span id="year"></span> Hempenology</span><a href="#top">Back to top ↑</a></div>
-<script src="script.js"></script></body></html>
+  <div class="announcement">A more thoughtful way to make, eat and live.</div>
+
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Hempenology home">
+      <span class="mark">H<span>•</span></span><b>HEMPENOLOGY</b>
+    </a>
+    <button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav aria-label="Main navigation">
+      <a href="#pantry">The Pantry</a>
+      <a href="#kitchen">The Kitchen</a>
+      <a href="#philosophy">Our thinking</a>
+      <a href="#journal">Journal</a>
+      <a class="navcta" href="#contact">Say hello ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <small>INDEPENDENT · ROOTED · CURIOUS</small>
+        <h1>Rooted in nature.<br><em>Made with intention.</em></h1>
+        <p>A meeting place for good food, thoughtful craft and a more connected way of living.</p>
+        <a class="button orange" href="#discover">Discover Hempenology <span>↓</span></a>
+      </div>
+      <div class="hero-note">INDEPENDENT BY NATURE <i>✳</i> OPEN TO WHAT'S NEXT</div>
+      <div class="hero-index">H / 01</div>
+    </section>
+
+    <section class="intro section" id="discover">
+      <div class="eyebrow"><small>01 / A DIFFERENT KIND OF THINKING</small><span>THE HEMPNOLOGY WAY</span></div>
+      <div class="intro-copy">
+        <h2>Not just a name.<br><em>A way of looking at things.</em></h2>
+        <p class="lead">Hempenology brings together a love of ingredients, creativity and the natural world.</p>
+        <p>We believe the best things begin with curiosity: knowing where things come from, respecting the process and taking the time to make something properly. This is our independent home for that journey.</p>
+      </div>
+    </section>
+
+    <section class="destinations" aria-labelledby="destinations-title">
+      <div class="section-heading">
+        <div><small>02 / STEP INSIDE</small><h2 id="destinations-title">Four paths.<br><em>One curious mind.</em></h2></div>
+        <p>From the things we make to the ideas that shape us, explore the different sides of Hempenology.</p>
+      </div>
+
+      <div class="destination-grid">
+        <article class="destination destination-pantry" id="pantry">
+          <div class="destination-image" role="img" aria-label="Artisan food and ingredients arranged on a work surface"></div>
+          <div class="destination-content">
+            <span class="number">01 / MAKE & TASTE</span>
+            <h3>The Pantry</h3>
+            <p>Small-batch creations, thoughtful ingredients and good things made to be shared. A home for our food and product journey.</p>
+            <a href="#contact" class="textlink">Explore the Pantry <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="destination destination-kitchen" id="kitchen">
+          <div class="destination-image" role="img" aria-label="Freshly baked artisan bread on a wooden table"></div>
+          <div class="destination-content">
+            <span class="number">02 / LEARN & EXPERIMENT</span>
+            <h3>The Kitchen</h3>
+            <p>Recipes, fermentation, sourdough and the satisfying alchemy of turning simple ingredients into something memorable.</p>
+            <a href="#contact" class="textlink">Enter the Kitchen <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="destination destination-philosophy" id="philosophy">
+          <div class="destination-image" role="img" aria-label="Sunlight falling across green botanical leaves"></div>
+          <div class="destination-content">
+            <span class="number">03 / QUESTION & CONNECT</span>
+            <h3>The Philosophy</h3>
+            <p>Hemp, nature, conscious choices and independent thinking. Open-minded exploration, grounded in curiosity and evidence.</p>
+            <a href="#contact" class="textlink">Explore our thinking <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="destination destination-journal" id="journal">
+          <div class="destination-image" role="img" aria-label="Open notebook and pen on a warm, textured desk"></div>
+          <div class="destination-content">
+            <span class="number">04 / READ & REFLECT</span>
+            <h3>The Journal</h3>
+            <p>Notes from the journey: stories, ideas, discoveries and the occasional rabbit hole worth wandering down.</p>
+            <a href="#contact" class="textlink">Read the Journal <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="coming-note"><span>✳</span> These spaces are taking shape. More to explore soon.</p>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-art"><span>HEMP<br>EARTH<br>CRAFT</span></div>
+      <div class="manifesto-copy">
+        <small>03 / THE HEMPENOLOGY MINDSET</small>
+        <h2>Curiosity is<br><em>the first ingredient.</em></h2>
+        <p>Hemp has a long human story and a fascinating place in conversations about food, materials and more regenerative ways of thinking. We approach it with open eyes, practical curiosity and respect for the facts.</p>
+        <p>Not here to preach. Here to make, learn, question and share.</p>
+        <a class="textlink" href="#contact">Start a conversation <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="values section">
+      <div class="values-heading"><small>04 / WHAT WE VALUE</small><h2>Good things<br><em>grow from the ground up.</em></h2></div>
+      <div class="value-grid">
+        <article><span>01</span><b>✳</b><h3>Know your ingredients</h3><p>Respect for the raw material, the people behind it and the journey from source to table.</p></article>
+        <article><span>02</span><b>⌁</b><h3>Make with intention</h3><p>Care, craft and a willingness to keep learning. No need to overcomplicate the good stuff.</p></article>
+        <article><span>03</span><b>❋</b><h3>Stay connected</h3><p>To nature, to community and to the small everyday choices that shape a better future.</p></article>
+      </div>
+    </section>
+
+    <section class="journal-teaser section">
+      <div>
+        <small>05 / NOTES FROM THE JOURNEY</small>
+        <h2>Ideas worth<br><em>giving room to grow.</em></h2>
+      </div>
+      <div class="journal-teaser-copy">
+        <p>The Journal will be a place for experiments, recipes, thoughtful questions and discoveries from the Hempenology world.</p>
+        <span class="journal-stamp">FIRST EDITION<br><b>COMING SOON</b></span>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <small>06 / SAY HELLO</small>
+      <h2>Good things start<br><em>with a conversation.</em></h2>
+      <p>Interested in collaborating, stocking, creating or simply finding out more?</p>
+      <span class="button light">Contact details coming soon</span>
+      <footer>INDEPENDENT BY NATURE. OPEN TO WHAT'S NEXT.</footer>
+    </section>
+  </main>
+
+  <div class="bottom">
+    <a class="brand" href="#top"><span class="mark">H<span>•</span></span><b>HEMPENOLOGY</b></a>
+    <span>© <span id="year"></span> Hempenology</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
