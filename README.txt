@@ -1,10 +1,17 @@
-HEMPENOLOGY VISUAL WEBSITE
+HEMPENOLOGY PROFESSIONAL WEBSITE
+A complete multi-page visual brand website. Not an online shop.
 
-This is a visual brand website, not an online shop. It intentionally has no fake product listings, prices, basket, checkout, stock messages or placeholder forms.
+PAGES: Home, Artisan Food, Catering, Hemp & Lifestyle, Web Design, Sound, Contact.
+CONTACT: Ritual@hempenology.com
+SOUNDCLOUD: https://soundcloud.com/hempenology
 
-Includes: Home, Artisan Food, Catering, Hemp-based Products, Web Design, SoundCloud link and Contact page.
+DEPLOY:
+1. Keep a backup of your current repository / commit history.
+2. Extract this ZIP.
+3. Upload ALL contents of this folder to the ROOT of your existing GitHub repository.
+4. Preserve the assets/css and assets/js folder structure.
+5. Commit to main. Cloudflare Pages should deploy automatically.
 
-SoundCloud: https://soundcloud.com/hempenology
-Instagram: https://www.instagram.com/hempenology/
-
-Deploy: back up your existing GitHub repository, extract this ZIP, then upload index.html, contact.html, styles.css, script.js and README.txt to the repository root. Cloudflare Pages should redeploy automatically.
+No fake prices, product availability, checkout, stock claims or non-working forms.
+Contact links use mailto and open the visitor's email application.
+The initial visual panels use CSS artwork rather than pretending to be real product photography.
