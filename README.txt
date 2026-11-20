@@ -1,22 +1,17 @@
-HEMPENOLOGY WEBSITE RELEASE
+HEMPENOLOGY PROFESSIONAL WEBSITE
+A complete multi-page visual brand website. Not an online shop.
 
-This is one complete, matching static website build.
+PAGES: Home, Artisan Food, Catering, Hemp & Lifestyle, Web Design, Sound, Contact.
+CONTACT: Ritual@hempenology.com
+SOUNDCLOUD: https://soundcloud.com/hempenology
 
-Pages: Home, Artisan Food, Catering & Events, Hemp & Lifestyle, Web Design, Sound & Music, Contact, and 404.
-Stylesheet: assets/css/site.css
-JavaScript: assets/js/site.js
-Images: assets/images/
-Contact: Ritual@hempenology.com
-SoundCloud: https://on.soundcloud.com/OOllfIjlfhY345QDqL
-Buy Me a Coffee: https://buymeacoffee.com/hempenology
+DEPLOY:
+1. Keep a backup of your current repository / commit history.
+2. Extract this ZIP.
+3. Upload ALL contents of this folder to the ROOT of your existing GitHub repository.
+4. Preserve the assets/css and assets/js folder structure.
+5. Commit to main. Cloudflare Pages should deploy automatically.
 
-DEPLOYMENT
-1. Download and extract this ZIP.
-2. Upload the CONTENTS of this folder into the ROOT of the GitHub repository connected to Cloudflare Pages.
-3. Ensure index.html is at the repository root, not inside another folder.
-4. Commit to the production branch and allow Cloudflare Pages to deploy.
-5. After deployment, test the homepage, all six navigation pages, the slide-out menu, email links, and SoundCloud link.
-
-Do not mix files from older Hempenology ZIPs into this release. Keep the existing GitHub repository history as a backup.
-
-This is a brand website, not an online shop. No invented prices, products, checkout, stock claims, or fake contact form are included.
+No fake prices, product availability, checkout, stock claims or non-working forms.
+Contact links use mailto and open the visitor's email application.
+The initial visual panels use CSS artwork rather than pretending to be real product photography.
