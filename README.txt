@@ -1,10 +1,9 @@
-HEMPENOLOGY VISUAL WEBSITE
+HEMPENOLOGY COMPLETE WEBSITE
+Pages: Home, Food, Catering, Hemp & Lifestyle, Web Design, Sound, Contact.
+Contact email: Ritual@hempenology.com.
+SoundCloud currently links to a Hempenology search. Replace that URL in sound.html with the exact artist profile URL when confirmed.
 
-This is a visual brand website, not an online shop. It intentionally has no fake product listings, prices, basket, checkout, stock messages or placeholder forms.
+DEPLOY: Extract this ZIP and upload ALL contents into the ROOT of your existing GitHub repository. Preserve assets/css/site.css, assets/js/site.js and assets/images/botanical.svg. Commit to main; Cloudflare Pages should deploy automatically. Keep GitHub history as backup.
 
-Includes: Home, Artisan Food, Catering, Hemp-based Products, Web Design, SoundCloud link and Contact page.
-
-SoundCloud: https://soundcloud.com/hempenology
-Instagram: https://www.instagram.com/hempenology/
-
-Deploy: back up your existing GitHub repository, extract this ZIP, then upload index.html, contact.html, styles.css, script.js and README.txt to the repository root. Cloudflare Pages should redeploy automatically.
+Visual brand website only. No invented products, prices, checkout, stock claims or fake forms.
+\nUPDATE: Full slide-in sidebar navigation added across all pages. Buy Me a Coffee is linked in the sidebar and featured on the homepage: https://buymeacoffee.com/hempenology.\n
